@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    import string
+    digit=string.digits
+    i=0
+    count=0
+    while i<len(s):
+        if s[i] in digit:
+            count+=int(s[i])
+        i+=1
+    return count
+s='23 df 45 g67'
+print(main(s))

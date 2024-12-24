@@ -7,3 +7,14 @@ def main(s):
     Returns:
         int: return answer
     """
+    import string
+    consonat=['a','e','i','o','u']
+    i=0
+    count=0
+    while i<len(s):
+        if s[i] in consonat:
+         count+=1
+        i+=1
+    return count
+s='asdgh 23s'
+print(main(s))

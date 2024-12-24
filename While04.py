@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    import string
+    upper=string.ascii_uppercase
+    i=0
+    count=0
+    while i<len(s):
+        if s[i] in upper:
+         count+=1
+        i+=1
+    return count
+s='!@#$%1ASDF34'
+print(main(s))

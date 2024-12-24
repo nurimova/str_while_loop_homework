@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    n=len(s)
+    i=0
+    count=0
+    while i<n:
+        if s[i].isalpha():
+         count+=1
+        i+=1
+    return count
+s='coder 1234'
+print(main(s))
