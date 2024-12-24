@@ -1,4 +1,4 @@
-```
+```markdown
 # Xush kelibsiz
 # LIST Indeksatsiya
 
